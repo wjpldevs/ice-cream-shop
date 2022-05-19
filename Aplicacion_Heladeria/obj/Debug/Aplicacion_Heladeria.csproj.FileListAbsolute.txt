@@ -1,0 +1,12 @@
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\bin\Debug\Aplicacion_Heladeria.exe
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\bin\Debug\Aplicacion_Heladeria.exe.config
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.frmApp.resources
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.frmDesarrollador.resources
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.frmPrincipal.resources
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.frmBienvenida.resources
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.Properties.Resources.resources
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.csproj.GenerateResource.Cache
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.exe
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.pdb
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\bin\Debug\Aplicacion_Heladeria.pdb
+I:\CARRERA\Semestre 6\Algoritmos y Estructuras de Datos II\Aplicacion_Heladeria\Aplicacion_Heladeria\obj\Debug\Aplicacion_Heladeria.csprojResolveAssemblyReference.cache

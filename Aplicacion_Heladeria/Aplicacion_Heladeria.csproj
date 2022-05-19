@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{896F942E-46A6-407D-A586-0EEEC3557FB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aplicacion_Heladeria</RootNamespace>
+    <AssemblyName>Aplicacion_Heladeria</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApp.Designer.cs">
+      <DependentUpon>frmApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesarrollador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesarrollador.Designer.cs">
+      <DependentUpon>frmDesarrollador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBienvenida.Designer.cs">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmApp.resx">
+      <DependentUpon>frmApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesarrollador.resx">
+      <DependentUpon>frmDesarrollador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBienvenida.resx">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heladeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heladeria_Izq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heladeria_Fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertar-moneda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cesta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolsa-de-dinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-de-encendido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1472372596_web-code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1472372679_close_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1472421981_search_magnifying_glass_find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1472422073_magnifier_glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bienvenida_Heladeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1472426600_key_safety_lock_unlock_safe_access.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo - UNAN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice_cream_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice_cream_logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc.logo.large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Heladeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo-Logo-2013-Germania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc.logo.large1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
